@@ -1,0 +1,62 @@
+
+body {
+
+    background-color: rgb(163, 171, 179);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+/* Ancho de la pagina */
+
+max-width: 900px;
+margin: 0 auto;
+
+}
+
+nav {
+ width: 110%;
+ height: 150px;
+ background-color: rgb(109, 144, 175);
+
+}
+
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px; 
+}
+
+
+nav ul li:hover {
+
+    background-color: #fff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000
+}
+
+a:visited {
+color: #140b0b
+}
+
+a:active {
+    color: #e27f0e
+}
+
+.img-logo {
+    width: 180px;
+    padding-top: 20px;
+    padding-left: 5%;
+}
+
+nav ul  {
+    padding-top: 90px;
+    float: right; 
+    margin: 0;
+}
+
+footer {
+    background-color: aliceblue;
+}
